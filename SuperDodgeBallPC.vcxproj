@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nesemu1.cc" />
+    <ClCompile Include="SDB.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nesemu1.hh" />
+    <ClInclude Include="SDB.hpp" />
+    <ClInclude Include="Types.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
