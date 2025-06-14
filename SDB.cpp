@@ -8,7 +8,7 @@
 
  /// Macro for creating a memory address variable
 #define BIND( func, address ) SDB_TranslationTable[address] = func
-#define MEMORY( name, address ) MemoryAccess name(address)
+#define MEMORY( name, address ) static MemoryAccess name(address)
 
 /*
  * Static variables
